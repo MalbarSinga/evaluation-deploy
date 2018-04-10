@@ -1,5 +1,5 @@
 export const environment = {
-    production: true,
-    apiUrl: '/evaluation-singa/data/poc.json'
+    production: false,
+    apiUrl: '/assets/data/poc.json/'
 
 };
