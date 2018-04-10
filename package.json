@@ -1,9 +1,12 @@
 {
-  "name": "evaluation-deploy",
+  "name": "evaluation-Singa",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "ng build --prod --env=test --base-href /eval/"
+    "postinstall": "npm run build",
+    "build": "ng build --prod --env=test --base-href /evaluation-singa/",
+    "deploy": "ngh --branch=gh-pages --repo=git@github.com:MalbarSinga/evaluation-singa.git",
+    "publish": "npm run build && npm run deploy"
   },
   "private": true,
   "dependencies": {
