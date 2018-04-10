@@ -193,7 +193,7 @@ var BookService = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
 var environment = {
     production: false,
-    apiUrl: '/evaluation-singa/assets/data/poc.json/'
+    apiUrl: '/evaluation-singa/assets/data/poc.json'
 };
 
 
@@ -206,7 +206,7 @@ var environment = {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
 var environment = {
     production: false,
-    apiUrl: '/evaluation-singa/assets/data/poc.json/'
+    apiUrl: '/evaluation-singa/assets/data/poc.json'
 };
 
 
