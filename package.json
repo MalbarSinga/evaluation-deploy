@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "npm run build",
-    "build": "ng build --prod --env=test --base-href /evaluation-singa/",
+    "build": "ng build --prod --env=singa --base-href /evaluation-singa/",
     "deploy": "ngh --branch=gh-pages --repo=git@github.com:MalbarSinga/evaluation-singa.git",
     "publish": "npm run build && npm run deploy"
   },
